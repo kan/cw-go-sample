@@ -3,7 +3,6 @@ services:
     build: .
     volumes:
       - .:/app
-    tty: true
     ports:
-      - 8080:8080
-    command: /bin/bash
+      - 8787:8787
+    tty: true

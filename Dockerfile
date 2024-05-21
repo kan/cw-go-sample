@@ -27,5 +27,3 @@ RUN wget https://github.com/tinygo-org/tinygo/releases/download/v0.31.2/tinygo_0
 RUN npm install -g wrangler
 
 WORKDIR /app
-
-CMD ["/bin/bash"]
