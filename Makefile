@@ -1,6 +1,6 @@
 .PHONY: dev
 dev:
-	wrangler dev --local --host 0.0.0.0
+	wrangler dev --ip 0.0.0.0
 
 .PHONY: build
 build:
